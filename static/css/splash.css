@@ -1,0 +1,94 @@
+body{
+    background-color: beige;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 550px;
+}
+div{
+
+    border-radius: 15px;
+    animation: lateral 2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    width: 100%;
+    height: 303px;
+    background-color: brown;
+}
+h1{
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    font-size: 38px;
+    color: bisque;
+    animation: cima 1s linear;
+}
+.imagem{
+    margin-left: -280px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 350px;
+    position: absolute;
+    background-image: url(../imagens/splash/cristiano-ronaldo.webp);
+    background-position: center;
+    background-size: 350px;
+    animation: transition 2s linear ;
+
+}
+.imagem-2{
+    margin-left: 400px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    background-image: url(../imagens/splash/michael-jordan.webp);
+    background-position: center;
+    background-size: 260px;
+    animation: transition-2 2s linear ;
+}
+
+@keyframes lateral {
+    from{
+        transform: translateX(200px);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }  
+}
+@keyframes cima {
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0px);
+    } 
+}
+@keyframes transition {
+    from{
+        opacity: 1;
+        margin-left: -100px;
+        z-index: 1;
+    }
+    to{
+        margin-left: -280px;
+        opacity: 1;
+        z-index: 1;
+    }
+}
+@keyframes transition-2 {
+    from{
+        opacity: 1;
+        margin-left: 300px;
+        z-index: 1;
+    }
+    to{
+        margin-left: 400px;
+        opacity: 1;
+        z-index: 1;
+    }
+}

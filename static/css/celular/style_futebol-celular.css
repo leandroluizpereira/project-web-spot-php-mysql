@@ -1,0 +1,437 @@
+@charset "UTF-8";
+@media screen and (min-width:0px) and (max-width:450px){
+.secao-futebol{
+    width: auto;
+    height: auto;
+    border-radius: 20px; 
+}
+.titulo-futeboll{
+    text-align:center;
+    color:  #D9AD5B;
+    font-size: 40px;
+}
+.imagem-futebol{
+    border: 1.5px solid #6BD425;
+    width: 100%;
+    height: auto;
+    border-radius: 1%; 
+}
+.grid-futebol {
+    align-items: center;
+    border-top: 3px solid #6BD425;
+    border-left:3px solid #6BD425 ;
+    border-right: 3px solid #6BD425;
+    margin: 3%;
+    display: grid;
+    border-radius: 8px;
+    background-color: #8A8C4A; 
+}  
+
+.grid-futebol >div:nth-child(1){
+    padding: 4%;
+    align-items: center;
+    position: center;
+}
+.grid-futebol >div:nth-child(2){
+    color:#d8f192;
+    padding: 8%;
+    margin-left:6%;
+    margin-right:6%;
+    border: 2px solid #6BD425;
+    border-radius: 8px;
+    background-color: #4F5D2F;
+}
+
+.h1-beneficios{
+    text-align: center;
+    margin: 2%;
+}
+.ol{
+    margin-top: 8%;
+}
+
+.grid-futebol>div:nth-child(3){
+    margin:-7px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0px 0px 0px 0px ;
+    color: #8C0D0D;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    align-items: center;  
+}
+
+.grid-futebol>div h1:nth-child(n+1){
+    color: #6BD425;
+    font-size: 30px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+   
+}
+.grid-futebol>div h3:nth-child(n+1){
+   text-indent: 20px;
+   
+}
+.grid-futebol>div p:nth-child(n+1){
+    /*color: #889174;*/
+    color: black;
+    text-indent: 23px;
+}
+.img-futebol{
+    /*deixa o cursor do mouse a mão aberta */
+    cursor: grab;
+    z-index:0;
+    /*usando a chave da animação definindo transição linear infinito*/   
+ }
+.img-futebol:hover{
+}
+.img-copa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background: url(../../imagens/background/copa-do-mundo-1000px.webp)center center;
+    /*opacity: 0.6;*/
+    background-size: cover;
+    margin-top: 6%;
+    background-position-y:-30px ;
+}
+.titulo-img-copa{
+    font-size: 35px; 
+    color: white;
+}
+.futebol-informacao{
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+.div-card-futebol{
+    width: auto;
+    height: 200px;
+    background-color: black;
+    overflow: scroll; 
+}
+
+/*============Container=============== */
+.h1-destaques-fut{
+    font-size: 18px;
+    text-align: center;
+    color: #8A8C4A;
+}
+.copa-d0-mundo-estatistica-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#8A8C4A;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+}
+.container-time-copa-do-mundo{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+    
+}
+.time-01-fut{
+    padding: 0%;
+    margin-right: -5%;
+    margin-top: 50px;
+    margin-bottom: 55%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+    position: relative;
+}
+.h1-1{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;   
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.real-madri { 
+    position: relative;
+    top: 6px;
+    left: 9px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.a-copa-do-mundo{
+    color:yellow;
+    display: inline-block;
+    text-decoration: none;
+}
+.time-02-fut{
+    position: relative;
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 55%;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+} 
+.h1-2{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.barcelona{
+    position: relative;
+    top: 24px;
+    left: 17px;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 15%;
+}
+.time-03-fut{
+    margin-bottom: 0%;
+    position: relative;
+    margin-top: -10%;
+    margin-right: 5%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+}
+.h1-3{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.bayer-de-munique{
+    position: relative;
+    top: 10px;
+    left: 8px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+/*--=============Container imagens Futebol====================--*/
+.h1-scroll-fut{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #4F5D2F;
+}
+.img-scroll-fut{
+    width: 25px;
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
+.container-layount-fut {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 304px;
+    background-color: #8A8C4A;
+    overflow: scroll;
+}
+.divs-fotos-container-layont-fut{
+    width: 5800px;
+    height: auto;
+    background-color: #8A8C4A;
+}
+.categoria-fut{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 200px;
+    height: 300px;
+    border: 3px solid  #4F5D2F;
+    background-color:  #4F5D2F;
+}
+.sub-categoria-fut{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 55px;
+    height: 300px;
+    margin-top: 7px;
+    background-color:  #4F5D2F;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid  #4F5D2F;
+}
+.h1-sub-categoria-fut{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem-fut{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem-fut{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria-fut{
+    color: beige;
+    text-align: justify;
+    text-align: center;
+    
+}
+.categoria-fut:hover{
+    border: 3px solid beige; 
+    background-color: #4F5D2F ;
+}
+.div-titulo-fut{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    background-color: #4F5D2F;
+}
+.frase-cristiano-ronaldo{
+    width: 100%;
+    height: auto;
+    background-color:  #8c0d0d38;
+    position: relative;
+    top: 262px;
+    text-align: center;
+    color: #d9ad5b33;
+    overflow: hidden;
+
+}
+.frase-cristiano-ronaldo:hover{
+    background-color:   #8C0D0D;
+    color: #d9ad5b;
+}
+.frase-lionel-messi{
+    padding: 12px;
+    font-size: 14px;
+    position: relative;
+    top: 262px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #d9635b2a;
+    height: 60px;
+    overflow: hidden;
+}
+.frase-lionel-messi:hover{
+    background-color: rgb(0, 5, 80);
+    color: white;
+}
+
+.divs-fotos-container-layont-fut> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:   #4F5D2F;
+    border: 3px solid  #4F5D2F;
+    width: 300px;
+    height: 300px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+}
+.divs-fotos-container-layont-fut> a:hover:nth-child(n+1){
+    width: 300px;
+    border: 3px solid beige;
+    height: 300px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro-fut,.segundo-fut,.terceiro-fut,.quarto-fut,.quinto-fut,.sexto-fut,.setimo-fut,.oitavo-fut,.nono-fut,.decimo-fut,.decimo-primeiro-fut,.decimo-segundo-fut,.decimo-terceiro-fut,.decimo-quarto-fut,.decimo-quinto-fut{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover,.decimo-terceiro-fut:hover,.decimo-quarto-fut:hover,.decimo-quinto-fut:hover{
+    color:white;
+}
+
+/*Background imagems*/
+
+.primeiro-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-1-600px.webp) ;
+}
+.segundo-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-1.webp) ;
+}
+.terceiro-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-1.webp) ;
+}
+.quarto-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-2.webp) ;
+}
+.quinto-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-2.webp) ;
+}
+.sexto-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-2.webp) ;
+}
+.setimo-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-3.webp) ;
+}
+.oitavo-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-3.webp) ;
+}
+.nono-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-3.webp) ;
+}
+.decimo-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-4.webp) ;
+}
+.decimo-primeiro-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-4.webp) ;
+}
+.decimo-segundo-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-4.webp) ;
+}
+.decimo-terceiro-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-5.webp) ;
+}
+.decimo-quarto-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-5.webp) ;
+}
+.decimo-quinto-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-5.webp) ;
+}
+
+}

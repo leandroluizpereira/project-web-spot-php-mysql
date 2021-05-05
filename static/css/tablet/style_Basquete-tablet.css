@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+@media screen and (min-width:451px) and (max-width:700px){
+.secao-basquete{
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;     
+}
+.imagem-basquete{
+    border: 1.5px solid #D9A25F;
+    width: 60%;
+    height: auto;
+    border-radius: 1%; 
+}
+.titulo-basketball{   
+    text-align:center;
+    color:  #D9AD5B;
+    font-size: 40px;
+}
+.grid {
+    align-items: center;
+    border-top: 3px solid #D9A25F;
+    border-left:3px solid #D9A25F ;
+    border-right: 3px solid #D9A25F;
+    border-radius: 8px;
+    margin: 3%;
+    display: grid;
+}     
+.grid >div:nth-child(1){
+    padding: 4%;
+    text-align: center;
+    position: center;
+}
+
+.grid >div:nth-child(2){
+    color:#D9A25F;
+    padding: 8%;
+    margin-left:6%;
+    margin-right:6%;
+    border: 2px solid #D9A25F;
+    border-radius: 8px;
+    background-color: #590A0A; 
+}
+.h1-beneficios{
+    text-align: center;
+    margin: 2%;
+}
+.ol{
+    margin-top: 8%;
+ }
+    
+.grid >div:nth-child(3){
+    margin:-7px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0px 0px 0px 0px ;
+    color: #8C0D0D;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    align-items: center;  
+}
+    
+.grid>div h1:nth-child(n+1){
+    color:#D9AD5B;
+    font-size: 30px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+       
+ }
+.grid>div h3:nth-child(n+1){
+       text-indent: 20px;  
+}
+    
+.grid>div p:nth-child(n+1){
+    color: black;
+}
+.img-basquete{
+    /*deixa o cursor do mouse a mão aberta */
+    cursor: grab;
+    border: 3px solid #590A0A ;
+    border-radius: 50%;
+    z-index:0;
+    /*usando a chave da animação definindo transição linear infinito*/
+    animation: girar 0.7s linear infinite;    
+}
+.img-basquete:hover{
+    animation: bola-movimento 0.7s infinite; 
+}
+
+.informacao{
+        background-color: white;
+}
+    
+.container-img{
+    background-color: white;
+    width: 100%;
+    height: 160px;
+    margin-top: 8%;
+    padding-bottom: 8%;
+    padding-top: 5%;  
+}
+
+.img-nba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:190px;
+    background: url(../../imagens/background/nba01-690px-200px.webp);
+    background-position-y: 45%;
+    /*opacity: 0.6;*/
+}
+
+.titulo-img-nba{
+    font-size: 50px;
+    color: white;
+}
+.informacao-nba{
+    margin-top: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 3%;
+ }
+ .propaganda-nba{
+     display: none;
+ }
+    
+/*============Basquete======================*/
+.h1-destaques{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    font-size: 28px;
+    padding: 5px;
+    color: #590A0A;
+}
+.nba-estatistica-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 22, 22);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+ }
+
+.container-time-nba{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;  
+    width: auto;
+    height: auto;
+ }
+
+.time-01{
+    padding: 0%;
+    margin-right: -5%;
+    margin-top: 30%;
+    margin-bottom: 55%;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #590A0A;
+    z-index: 0;
+    position: relative;  
+}
+.h1-1-nba{
+    opacity: 0;
+    width: 300px;
+    height: 300px;  
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;      
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.chicago-bulls {
+             
+    width: 100%;
+    height: 100%;
+       
+}
+.time-02{
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 55%;
+    border-radius: 50%;
+    background-color: #590A0A;
+    z-index: 0;
+}
+       
+.h1-2-nba{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;     
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);  
+    z-index: -2;  
+ }
+.golden-state{
+    width: 100%;
+    height: 100%;
+}
+
+.time-03{
+    margin-bottom: 0%;
+    position: relative;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    background-color: #590A0A;
+    z-index: 0;
+}
+.h1-3-nba{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+    
+.Cleveland-Cavaliers{
+    width: 100%;
+    height: 100%;
+}
+
+.a-nb{
+    color: yellow;
+    display: inline-block;
+}
+/*--=============Container imagens====================--*/
+.h1-scroll-basquete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #590A0A;
+}
+.img-scroll-basquete{
+
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
+
+.container-layount {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 304px;
+    background-color: rgb(139, 22, 22);
+    overflow: scroll;
+}
+.divs-fotos-container-layont{
+    width: 3800px;
+    height: auto;
+    background-color: rgb(139, 22, 22);
+}
+
+.divs-fotos-container-layont>.categoria{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 4%;
+    height: 300px;
+    border:  3px solid #590a0a;
+    background-color: #590a0a;
+}
+
+.divs-fotos-container-layont>.categoria:hover{
+    border: 3px solid beige; 
+    background-color:#590a0a ;
+}
+.divs-fotos-container-layont>.sub-categoria{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 35px;
+    height: 300px;
+    margin-top: 7px;
+    background-color: #590a0a;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #590a0a;
+}
+.sub-categoria>.h1-sub-categoria{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria{
+    color: beige;
+    text-align: justify;
+    text-align: center; 
+}
+.div-titulo{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    background-color: #590a0a;
+    border:  1px solid #D9AD5B;
+}
+.container-layount>.divs-fotos-container-layont> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:#590a0a;
+    border:  3px solid #590a0a;
+    width: 4%;
+    height: 300px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;   
+}
+
+
+.container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
+    width: 9.5%;
+    border:  3px solid beige;
+    height: 300px;
+    transition: width 1.5s, transform 1.5s;  
+    /*animation: movimento linear 3s ;*/
+}
+
+.primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo,.decimo-terceiro,.decimo-quarto,.decimo-quinto{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover,.decimo-terceiro:hover,.decimo-quarto:hover,.decimo-quinto:hover{
+    color:white;
+}
+/*Background imagems*/
+
+.primeiro{
+    background-image:url(../../imagens/michael-jordan-imagem.webp) ;
+}
+.segundo{
+    background-image:url(../../imagens/stephen-curry-imagem.webp) ;
+}
+.terceiro{
+    background-image:url(../../imagens/lebron-James-imagem.webp) ;
+}
+.quarto{
+    background-image:url(../../imagens/michael-jordan-imagme-2.webp) ;
+}
+.quinto{
+    background-image:url(../../imagens/stephen-curry-imagem-2.webp) ;
+}
+.sexto{
+    background-image:url(../../imagens/lebron-James-imagem-2.webp) ;
+}
+.setimo{
+    background-image:url(../../imagens/michael-jordan-imagme-3.webp) ;
+}
+.oitavo{
+    background-image:url(../../imagens/stephen-curry-imagem-3.webp) ;
+}
+.nono{
+    background-image:url(../../imagens/lebron-James-imagem-3.webp) ;
+}
+.decimo{
+    background-image:url(../../imagens/michael-jordan-imagme-4.webp) ;
+}
+.decimo-primeiro{
+    background-image:url(../../imagens/stephen-curry-imagem-4.webp) ;
+}
+.decimo-segundo{
+    background-image:url(../../imagens/lebron-James-imagem-4.webp) ;
+}
+.decimo-terceiro{
+    background-image:url(../../imagens/michael-jordan-imagme-5.webp) ;
+}
+.decimo-quarto{
+    background-image:url(../../imagens/stephen-curry-imagem-5.webp) ;
+}
+.decimo-quinto{
+    background-image:url(../../imagens/lebron-James-imagem-5.webp) ;
+}
+@keyframes move-direita{
+    from{
+        transform:translateX(-30px);
+    
+        }
+        to{
+            transform:translateX(0px);
+    
+        } 
+}
+  
+
+}   

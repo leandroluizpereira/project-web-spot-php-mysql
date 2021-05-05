@@ -1,0 +1,364 @@
+
+@charset "UTF-8";
+
+@media screen and (min-width:451px) and (max-width:700px){
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.466); 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(27, 27, 27, 0.315); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0px 5px 10px black;
+    background: #D9A25F; 
+  }
+body{
+    background-color: white;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.navBar {
+    height: 50px;
+	position: fixed;
+  min-width: 100%;
+  z-index: 3;
+  background:black;
+}
+
+.logo {
+  color: white;
+  display: inline-block;
+  height: 13px;
+  margin: 17px 20px ;
+  width: 187px;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 2%;
+}
+nav ul {
+  font-size: 13px;
+  padding: 0px;
+  margin: 7px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  min-width: 40%;
+}
+
+nav ul a {
+  color: rgb(231, 231, 231);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+nav ul a:hover {
+  color:  #D9A25F;
+
+}
+nav li {
+
+    font-family: 'Brandon Grotesque';
+    font-weight: normal;
+  font-style: normal;
+}
+nav li:hover{
+  background-color: #0000009d;
+}
+
+nav ul li:last-child a{
+    padding: 6px 17px;
+    border: 2px solid;  
+    border-radius: 5px;
+    color: #D9A25F;
+}
+
+#menu-icon { 
+    display: none; 
+    /* hide menu icon initially */
+}
+
+nav ul li:last-child a:hover{
+    color: #ffffff;
+   
+}
+
+nav #menu-toggle {
+  display: none;
+}
+nav .label-toggle {
+  display: none;
+}
+nav .wrapper {
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+nav .wrapper {
+    display: block;
+
+  }
+@media screen and (max-width: 768px) {
+  nav nav ul a {
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+  }
+  nav ul {
+    background-color: #006eff49;
+    display: block;
+    height: 0;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    transition: all 1s ease;
+    width: 100%;
+    visibility: hidden;
+    margin: 0%;
+    margin-left: -2%;
+
+  }
+  nav li {
+  
+    display: block;
+    font-size: 1.5em;
+    padding: 1em 0;
+    text-align: center;
+
+
+  }
+
+  nav #menu-toggle:checked ~ ul {
+    opacity: 1;
+    height: 100vh;
+  
+    visibility: visible;
+    background:#006cfa8a; 
+  }
+
+  nav .label-toggle {
+
+    background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 22px;
+    margin-top: 0.9em;
+    margin-right: 2em;
+    width: 26px;
+  }
+ 
+nav{
+    z-index :1;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+
+    background-color: rgba(0, 13, 83, 0.185); 
+}
+
+.li:hover{
+    background-color:white;
+    border-radius: 5px;
+  
+}
+
+p{
+    text-align: justify;
+    text-indent: 23px;
+   word-break: break-all;
+/*para não espaços entre letras */
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+.header-titulo{
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-top: 6%;
+    width:70%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+    margin-bottom: 15%;
+
+}
+.header-titulo h1{
+    text-align: center;
+    font-size: 70px;
+    color: #D9A25F;
+    text-shadow:4px 2px 2px #403222;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-left: 1px solid rgba(255, 255, 255,0.3);
+    border-radius: 10px;  
+}
+.header-titulo h2{
+    font-size: 40px;
+    color: #D9A25F;
+    padding-left: 7%;
+    text-shadow:4px 2px 2px #403222;
+}
+.header-titulo2{
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    width:70%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+}
+.header-titulo2 h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow:4px 2px 2px #403222;
+}
+.header-titulo2 h2{
+    text-align: center;
+    padding-left: 10px;
+
+    font-size: 30px;
+    color: white;
+    text-shadow:4px 2px 2px #403222;
+}
+
+.cabecalho{
+    width: auto;
+    height: 600px;
+    background: url(../../imagens/background/paisagemfull-tablet.webp)no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+.a-nba-sport{
+  display: inline-block;
+  color: yellow;
+  text-decoration: none;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a4a4b;
+  width: 100%;
+  color: white;
+  height: 200px;
+}
+footer:hover{
+  background-color: black;
+  color: white;
+}
+.footer-0{
+  margin-right: 50px;
+  text-align: justify;
+  font-size: 10px;
+
+}
+.footer-01{
+  margin-right: 50px;
+  font-size: 5px;
+  text-align: justify;
+
+
+}
+.footer-02{
+  margin-right: 50px;
+  font-size: 5px;
+  text-align: justify;
+
+
+}
+.footer-03{
+  margin-right: 50px;
+  font-size: 10px;
+  text-align: justify;
+
+
+
+}
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: #D9A25F;
+}
+
+/*============Formula one======================*/
+
+/*adicionando chave para animaçâo */
+ @keyframes bola-movimento {
+     from{
+          transform: translateY(0px);
+     }
+     to{
+
+        transform: translateY(-7px);
+     }
+     
+ }
+
+ /*animação circular crescente do ponto ao maximo da imagem */
+@keyframes scale {
+    from {
+        border-radius: 50%;
+       transform: scale(0);
+       opacity: 0;
+    }
+    to{
+        border-radius: 50%;
+       transform:scale (3.0);
+       opacity: 1;
+    }
+
+}
+@keyframes move {
+   from{
+   
+        transform: translateX(0px);
+   }
+   to{
+
+      transform: translateX(100%);
+   } 
+   
+}
+@keyframes opacidade {
+   from{
+   
+       opacity: 0;
+   }
+   to{
+
+     opacity: 1;
+   }
+
+    
+}
+@keyframes girar {
+    from{
+    
+        transform: rotate(0deg);
+    }
+    to{
+ 
+        transform: rotate(160deg);
+    }  
+ }
+
+}
+}

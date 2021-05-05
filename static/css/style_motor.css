@@ -1,0 +1,458 @@
+@charset  "UTF-8";
+
+@media screen and (min-width:701px) and (max-width:4090px){
+    /*@media screen and (min-width:430px) and (max-width:1390px)*/
+
+.secao-motor{ 
+    margin-bottom: 8%;
+    margin: auto;
+    width: 760px;
+    height: auto;
+    border-radius: 20px;   
+}
+@media screen and (max-width:800px){
+    .secao-motor{
+            width: 600px;
+            margin: auto;
+            height: auto;
+            border-radius: 20px;
+    }
+    
+    }
+    
+.titulo-motor{
+    text-align:center;
+    color:  #D9AD5B;
+}
+.imagem-motor{
+    width: 280px;
+    height: auto;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 7px; 
+    border: 1px solid #8C0D0D;
+}
+@media screen and (max-width:800px){
+    .imagem-motor{
+        width: 220px;
+
+    }
+    }
+.h1-motor{
+    text-align:center;
+    color:#8C0D0D;
+    font-size: 32px;
+}
+/*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
+.grid-motor{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.4fr;
+    border: 2px solid #8C0D0D;
+    border-radius: 7px;
+    margin-bottom: 8%;
+    background-color: #4a4a4b;
+}  
+
+/*:th-child ele pega o filho da tag declarado */
+.grid-motor >div:nth-child(1){
+  color:white;
+}
+.grid-motor >div:nth-child(2){  
+    color:#BFC7D9;
+    background-color:#000000;
+    padding: 30px;
+    font-size: 13px;
+    margin-left: 4%;
+    margin-right: -3.2%;
+}
+@media screen and (max-width:800px){ 
+
+    .grid-motor >div:nth-child(2){
+    background-color:#000000;
+    color: #D9AD5B;
+    padding: 10px;
+    font-size: 8px;
+    margin-left: 4%;
+    margin-right: -3.2%;
+
+}
+}
+
+.grid-motor >div:nth-child(3){
+    background-color: white;
+    width: auto;
+    border-radius: 7px;
+    color: black;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 10px;
+    height: 380px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    overflow: scroll ;
+}
+@media screen and (max-width:800px){
+ 
+    .grid-motor >div:nth-child(3){
+        height: 280px;
+    }
+    }
+
+/*(n+3) ele pega os filhos aparte do 3 */
+.grid-motor>div .h1-motor:nth-child(n+1){
+    color:black;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+@media screen and (max-width:800px){
+    .grid-motor>div .h1-motor:nth-child(n+1){
+        font-size: 20px;
+}
+}
+.grid-motor>div p:nth-child(n+1){
+     color: #28292b
+     ;
+    text-indent: 23px;
+}
+.grid-motor>div h3:nth-child(n+1){
+    text-indent: 20px;   
+    color: black;
+ }
+      /*usando a chave da animação definindo transição linear infinito*/
+
+/*=================================================
+====================================================
+=================================================*/
+.container-img-motor{
+    
+}
+.img-motor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    background: url(../imagens/background/formula-one-background-gimp.webp)center center;
+    /*opacity: 0.6;*/
+    background-size: cover;
+     margin-bottom: 3%;
+    }  
+.titulo-img-motor{
+    font-size: 100px;   
+    color: white;
+    }
+    
+ .motor-informacao{
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+
+/*===========Container motor================*/
+.h1-destaques-formula-one{
+    text-align: center;
+    color: rgb(126, 0, 0);
+}
+.formula-one-estatistica-logo{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #4a4a4b;
+    width: 100%;
+    height:auto;
+   z-index: 0;
+   
+   }
+   .container-formula-one{
+       margin-left: 10%;
+       margin-right: 10%;
+       width: 100vmax;
+       height: 100%;
+       margin-bottom: 2%;
+   }
+   
+   /*Design inspiração netflix */
+   
+   .formula-one-quadro{ 
+       position: relative;
+       margin-right: 7%;
+       margin-top: 2.7%;
+       display: inline-block;
+       width: 240px;
+       height: 240px;
+       border-radius: 50%;
+       background-color: black;
+   
+       z-index:0;
+   
+   }
+   .h1-1{
+       right: 124px;
+       top: -300px;
+    position: absolute;
+       font-size:340px;
+       color: rgb(255, 255, 255);
+    
+   
+   z-index: -2;
+   }
+   .ayrton-senna {
+    z-index: 1;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
+   
+   }
+   .a-motor{
+       color: yellow;
+       display: inline-block;
+   }
+   .formula-quadro-2{
+       position: relative;
+       margin-right: 7%;
+       margin-top: 2.7%;
+       display: inline-block;
+       width: 240px;
+       height: 240px;
+       border-radius: 50%;
+       background-color: black;
+   
+       z-index:0;
+   }
+   
+   .h1-2{
+       right: 124px;
+       top: -300px;
+    position: absolute;
+       font-size:340px;
+       color: rgb(255, 255, 255);
+       z-index: -2;
+   
+   z-index: -2;
+   }
+   .formula-img-02{
+    z-index: 1;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
+   
+   }
+   .formula-quadro-3{
+       position: relative;
+       margin-right: 0%;
+       margin-top: 2.7%;
+       display: inline-block;
+       width: 240px;
+       height: 240px;
+       border-radius: 50%;
+       background-color: black;
+       z-index:0;
+   }
+   .h1-3{
+   
+       right: 124px;
+       top: -300px;
+    position: absolute;
+       font-size:340px;
+       color: rgb(255, 255, 255);
+       z-index: -2;
+   
+   
+   }
+   .formula-img-03{
+    z-index: 1;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
+   }
+   .logo-a{
+   color: white;
+   }
+   
+   .a-nba{
+       border-radius: 50%;  
+   
+   }
+  /*--=============Container imagens Motor====================--*/
+  .h1-scroll-moto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+    color: black;
+}
+.img-scroll-moto{
+
+    animation: move-direita 1s linear infinite;
+    margin-right: 10px;
+
+}
+.container-layount-moto {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 404px;
+    background-color: #4a4a4b;
+    overflow: scroll;
+}
+.divs-fotos-container-layont-moto{
+    width: 3800px;
+    height: auto;
+    background-color: #4a4a4b;
+}
+.categoria-moto{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 8%;
+    height: 400px;
+    border: 3px solid  black;
+    background-color:  black;
+}
+.sub-categoria-moto{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 55px;
+    height: 400px;
+    margin-top: 7px;
+    background-color:  black;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid  black;
+}
+.h1-sub-categoria-moto{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem-moto{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem-moto{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria-moto{
+    color: beige;
+    text-align: justify;
+    text-align: center;
+    
+}
+.categoria-moto:hover{
+    border: 3px solid beige; 
+    background-color: black ;
+}
+.div-titulo-moto{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    border: 1px solid rgb(109, 108, 108);
+    background-color: black;
+}
+.divs-fotos-container-layont-moto> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:   black;
+    border: 3px solid  black;
+    width: 4%;
+    height: 400px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+}
+.divs-fotos-container-layont-moto> a:hover:nth-child(n+1){
+    width: 14%;
+    border: 3px solid beige;
+    height: 400px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro-moto,.segundo-moto,.terceiro-moto,.quarto-moto,.quinto-moto,.sexto-moto,.setimo-moto,.oitavo-moto,.nono-moto,.decimo-moto,.decimo-primeiro-moto,.decimo-segundo-moto,.decimo-terceiro-moto,.decimo-quarto-moto,.decimo-quinto-moto{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro-moto:hover,.segundo-moto:hover,.terceiro-moto:hover,.quarto-moto:hover,.quinto-moto:hover,.sexto-moto:hover,.setimo-moto:hover,.oitavo-moto:hover,.nono-moto:hover,.decimo-moto:hover,.decimo-primeiro-moto:hover,.decimo-segundo-moto:hover,.decimo-terceiro-moto:hover,.decimo-quarto-moto:hover,.decimo-quinto-moto:hover{
+    color:white;
+}
+/*Background imagems*/
+
+.primeiro-moto{
+    background-image:url(../imagens/Ayrton-Senna-imagem-1.webp) ;
+}
+.segundo-moto{
+    background-image:url(../imagens/Lewis-hamilton-imagem-1.webp) ;
+}
+.terceiro-moto{
+    background-image:url(../imagens/michael-shumacher-imagem-1.webp) ;
+}
+.quarto-moto{
+    background-image:url(../imagens/Ayrton-Senna-imagem-2.webp) ;
+}
+.quinto-moto{
+    background-image:url(../imagens/Lewis-hamilton-imagem-2.webp) ;
+}
+.sexto-moto{
+    background-image:url(../imagens/michael-shumacher-imagem-2.webp) ;
+}
+.setimo-moto{
+    background-image:url(../imagens/Ayrton-Senna-imagem-3.webp) ;
+}
+.oitavo-moto{
+    background-image:url(../imagens/Lewis-hamilton-imagem-3.webp) ;
+}
+.nono-moto{
+    background-image:url(../imagens/michael-shumacher-imagem-3.webp) ;
+}
+.decimo-moto{
+    background-image:url(../imagens/Ayrton-Senna-imagem-4.webp) ;
+}
+.decimo-primeiro-moto{
+    background-image:url(../imagens/Lewis-hamilton-imagem-4.webp) ;
+}
+.decimo-segundo-moto{
+    background-image:url(../imagens/michael-shumacher-imagem-4.webp) ;
+}
+.decimo-terceiro-moto{
+    background-image:url(../imagens/Ayrton-Senna-imagem-5.webp) ;
+}
+.decimo-quarto-moto{
+    background-image:url(../imagens/Lewis-hamilton-imagem-5.webp) ;
+}
+.decimo-quinto-moto{
+    background-image:url(../imagens/michael-shumacher-imagem-5.webp) ;
+}
+
+
+}

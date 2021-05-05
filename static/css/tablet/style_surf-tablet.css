@@ -1,0 +1,411 @@
+@charset "UTF-8";
+@media screen and (min-width:451px) and (max-width:700px){
+.secao-surf{
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;     
+}
+.titulo-surf{
+    text-align:center;
+    color:  #D9AD5B;
+    font-size: 40px;
+}
+.imagem-surf{
+    border: 1.5px solid #825D84;
+    width: 60%;
+    height: auto;
+    border-radius: 1%; 
+}
+.grid-surf {
+    align-items: center;
+    border-top: 3px solid #D9A25F;
+    border-left:3px solid #D9A25F ;
+    border-right: 3px solid #825D84 ;
+    margin: 3%;
+    display: grid;
+    border-radius: 8px;
+    background-color: #4E8BBF;
+}  
+
+.grid-surf >div:nth-child(1){
+    padding:4%;
+    text-align: center;
+    position: center;
+
+}
+.grid-surf >div:nth-child(2){
+    color:#BFC7D9;
+    padding: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 2px solid #825D84 ;
+    border-radius: 8px;
+    background-color: #034C8C
+    ;
+}
+.h1-beneficios{
+    text-align: center;
+    margin: 2%;
+    color:#BFC7D9;
+}
+.grid-surf>div:nth-child(3){
+    margin:-5px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0px 0px 0px 0px ;
+    color: #8C0D0D;
+    padding: 23px;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.grid-surf>div h1:nth-child(n+1){
+    color:#825D84;
+    font-size: 30px;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0)  
+}
+.grid-surf>div h3:nth-child(n+1){
+   text-indent: 20px;
+   
+}
+.grid-surf>div p:nth-child(n+1){
+   /*color:  #022a4d
+   ; */
+   color: black;
+   text-indent: 23px;
+}
+.img-surf{
+    /*deixa o cursor do mouse a mão aberta */
+    cursor: grab;
+    z-index:0;
+    /*usando a chave da animação definindo transição linear infinito*/ 
+ }
+ .img-surf:hover{
+  
+
+}
+.img-surf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:190px;
+    background: url(../../imagens/background/surf_background-1000px.webp)center center;
+    /*opacity: 0.6;*/
+    background-size: cover;
+    margin-top: 6%;
+    background-position-y:-30px ;
+}
+
+.titulo-img-surf{
+    font-size: 80px;
+    color: white;
+}
+ .surf-informacao{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+}
+
+/* ========================container surf ========================*/
+.h1-destaques-surfista{
+    text-align: center;
+    color: #034C8C;
+    font-size: 28px;
+    padding: 5px;
+}
+.surf-estatistica-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4E8BBF;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+}
+.container-surf{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+}
+.surf-quadro-1{
+    padding: 0%;
+    margin-right: -5%;
+    margin-top: 30%;
+    margin-bottom: 55%;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #034C8C;
+    z-index: 0;
+    position: relative;
+}
+.h1-1-surf{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.filipe-toledo {
+    position: relative;
+    top: 9px;
+    left: 9px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.a-surf{
+    text-decoration: none;
+    color:yellow;
+    display: inline-block;
+}
+.surf-quadro-2{
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 55%;
+    border-radius: 50%;
+    background-color: #034C8C;
+    z-index: 0;
+}  
+.h1-2{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.surf-img-02{
+    position: relative;
+    top: 9px;
+    left: 9px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.surf-quadro-3{  
+    margin-bottom: 0%;
+    position: relative;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    background-color: #034C8C;
+    z-index: 0;
+}
+
+.h1-3{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+
+.surf-img-03{
+    position: relative;
+    top: 9px;
+    left: 9px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+   /*--=============Container imagens surf ====================--*/
+.h1-scroll-surf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    color: #825D84;
+}
+.img-scroll-surf{
+
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+}
+   .container-layount-surf {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 304px;
+    background-color: #4E8BBF;
+    overflow: scroll;
+}
+.divs-fotos-container-layont-surf{
+    width: 3800px;
+    height: auto;
+    background-color: #4E8BBF;
+}
+.categoria-surf{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 4%;
+    height: 300px;
+    border: 3px solid #034C8C;
+    background-color: #034C8C;
+}
+.sub-categoria-surf{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 35px;
+    height:300px;
+    margin-top: 7px;
+    background-color: #034C8C;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #034C8C;
+}
+.h1-sub-categoria-surf{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem-surf{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem-surf{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria-surf{
+    color: beige;
+    text-align: justify;
+    text-align: center;
+    
+}
+.categoria-surf:hover{
+    border: 3px solid beige; 
+    background-color:#034C8C ;
+}
+.div-titulo-surf{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    background-color: #590a0a5b;
+}
+.divs-fotos-container-layont-surf> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:  #034C8C;
+    border: 3px solid #034C8C;
+    width: 4%;
+    height:300px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+ 
+}
+.divs-fotos-container-layont-surf> a:hover:nth-child(n+1){
+    width: 9.5%;
+    border: 3px solid beige;
+    height:300px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf,.decimo-terceiro-surf,.decimo-quarto-surf,.decimo-quinto-surf{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro-surf:hover,.segundo-surf:hover,.terceiro-surf:hover,.quarto-surf:hover,.quinto-surf:hover,.sexto-surf:hover,.setimo-surf:hover,.oitavo-surf:hover,.nono-surf:hover,.decimo-surf:hover,.decimo-primeiro-surf:hover,.decimo-segundo-surf:hover,.decimo-terceiro-surf:hover,.decimo-quarto-surf:hover,.decimo-quinto-surf:hover{
+    color:white;
+}
+/*Background imagems*/
+
+.primeiro-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-1.webp) ;
+}
+.segundo-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-1.webp) ;
+}
+.terceiro-surf{
+    background-image:url(../../imagens/jordy-smith-imagme-1.webp) ;
+}
+.quarto-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-2.webp) ;
+}
+.quinto-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-2.webp) ;
+}
+.sexto-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-2.webp) ;
+}
+.setimo-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-3.webp) ;
+}
+.oitavo-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-3.webp) ;
+}
+.nono-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-3.webp) ;
+}
+.decimo-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-4.webp) ;
+}
+.decimo-primeiro-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-4.webp) ;
+}
+.decimo-segundo-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-4.webp) ;
+}
+.decimo-terceiro-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-5.webp) ;
+}
+.decimo-quarto-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-5.webp) ;
+}
+.decimo-quinto-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-5.webp) ;
+}
+@keyframes move-direita{
+    from{
+        transform:translateX(-30px);
+    
+        }
+        to{
+            transform:translateX(0px);
+    
+        } 
+}
+  
+
+
+}
