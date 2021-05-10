@@ -77,10 +77,10 @@
     <input class="check" id="checkTermo" type="checkbox"  onclick="ch();">
     <label class="labelConSenha" for="">Lê e aceito os  <a href="termos.html">Termos de uso</a></label>
     </fieldset>
-
-    <input type ="submit" name="btnSalvar" class="btnEnviar" id="btn" onclick="salvar();"> </input>
+    <!-- <a href="telaUsuario.php?email= /*?php echo 'fernanda@gmail.com'?> */" type="submit" name="btnSalvar" class="btnEnviar" id="btn" >Cadastrar</a> -->
+   <input type ="submit" name="btnSalvar" class="btnEnviar" id="btn" onclick="salvar();"></input>
     <div class="a-voltar"><a href="index_2.php">Voltar a tela principal</a></div>
-    
+
   
     </form><!--form-->
     </div> <!--div-form-->

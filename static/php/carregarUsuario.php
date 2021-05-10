@@ -1,6 +1,9 @@
 
 
 <?php
+
+
+
 $hostname="localhost";
 $username="root";
 $password="";
@@ -21,7 +24,7 @@ if(isset($_POST ["btnSelecionar"])){
     }else{
         ?><script>alert("Nenhum registro foi encontrado!");</script><?php
 }
-echo ("muito bem");
+
 }
 
 

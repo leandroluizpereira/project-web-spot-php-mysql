@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="static/css/celular/splash-celular.css">
 </head>
 <body>
+   <div class="animate"></div>
  
  <script>intervaloSplash();</script> 
   <main>

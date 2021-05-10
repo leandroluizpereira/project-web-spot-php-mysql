@@ -46,7 +46,8 @@
         <h2 >Telefone:</h2>
         <!--Celular-->
         <h2 >Celular:  </h2>
-        <h2 name="tb_email">E-mail:</h2>
+        <?php session_start(); ?>
+        <h2 name="tb_email">E-mail:<?php echo $_SESSION['email'];?></h2>
         <div class="a-voltar"><a href="index_2.php">Voltar a página principal</a></div>
         <div class="a-alterar"><a href="alterarUsuario.php">Alterar dados do cadastro</a></div>
        

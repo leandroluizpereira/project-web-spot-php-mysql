@@ -18,12 +18,15 @@ if(isset($_POST ["btnSalvar"])){
     $consenha = $_POST["tb_consenha"];
     $query ="insert into tbcadastro(nome,bairro,rua,numero,telefone,celular,foto,email,senha,confirma) values('$nome','$bairro','$rua','$numero','$telefone','$celular','$imagem','$email','$senha','$consenha')";
     $result = mysqli_query($conexao,$query);
-if(mysqli_affected_rows($conexao)>0){
-    ?><script>alert("REGISTRO SALVO COM SUCESSO!");
-     
-    </script><?php
 
-  
+    //iniciando a sessão 
+    session_start();
+    $_SESSION['email']=$email;
+    //session_regenerate_id();
+
+if(mysqli_affected_rows($conexao)>0){
+    ?><script>alert("REGISTRO SALVO COM SUCESSO!");    
+    </script><?php
 }else{
     ?><script>alert("NÃO FOI SALVO!");</script><?php
 }

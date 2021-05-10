@@ -52,7 +52,7 @@
     <li class="li"><a href="#h1-motor">Automobilismo</a></li>
     <li class="li"><a href="#des">Dev</a></li>
     <li class="li" style="float: right;"><a href="Cadastro.php">Cadastra-se</a></li>
-    <li class="li" style="float: right;"><a href="Login.php">Login</a></li>
+   <!-- <li class="li" style="float: right;"><a href="Login.php">Login</a></li>-->
     
     </ul>
     </nav>
@@ -71,7 +71,7 @@
     <li ><a href="#h1-futebol">Futebol</a></li>
     <li ><a href="#h1-motor">Automobilismo</a></li>
     <li ><a href="#des">Dev</a></li>
-    <li ><a href="Login.php">Login</a></li>
+    <!--<li ><a href="Login.php">Login</a></li>-->
     <li ><a href="Cadastro.php">Cadastra-se</a></li>
     </ul>
     </nav><!--wrapper-->

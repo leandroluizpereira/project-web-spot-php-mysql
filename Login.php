@@ -23,17 +23,22 @@
   <div class="div-login">
     <h1 style="text-align: center;">Login:</h1>
     <hr>
-    <form action="">
+    <form action="carregarUsuario.php">
       <label for="" >E-mail:</label>
-      <input type="email" id="email" placeholder="E-mail">
+      <input type="email" id="email" placeholder="E-mail" name="email">
       <label for="">Senha:</label>
       <input type="password" placeholder="password" id="password"/>
-      <button id ="logar" class="botao" onclick="signUp();" >OK</button> 
+ <button id ="logar" class="botao" onclick="signUp();"  >OK</button>
+
+      
+  
+   ?>">logar</a> 
+    
    
      
-      <!--
-      <button class="botao" onclick="ler();" id="signIn">Sign In</button>
-      <button class="botao" onclick="signOut();" >Sign out</button> -->
+      <!-- 
+      <button class="botao" onclick="ler();" id="signIn">Sign In</button> 
+      <button class="botao" onclick="signOut();" >Sign out</button>
  
     </form>
 

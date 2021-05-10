@@ -8,19 +8,14 @@
    document.getElementById('btn').style.animation="esconder 1s linear";
    document.getElementById('btn').style.display="none";
    }
-
  }
- 
 //Autentificaçôes do cadastro
-
+/*
 function salvar(){
-
-  
    var count=0;
 
   if(document.getElementById("email").value.indexOf("@") == -1 || document.getElementById("email").value.indexOf(".") == -1 || "") {
     alert("Insira um email válido");
-   
 }
 else{
   count += 1;
@@ -96,22 +91,21 @@ else{
   alert("as duas senhas estão confere! ");
   count += 1;
   }
-  else{
-   
+  else{  
   alert("A senha está incorreto ");
   }
   if(document.getElementById("checkTermo").checked==false){
   alert("O termo deve ser confirmado");
- 
   }
   else{
     count += 1;
   }
   if(count>10){
   window.open('telaUsuario.php');
-
   }
 }
+*/
+
 function timeot(){
   alert("Salvo com sucesso");
   setTimeout(function() {
